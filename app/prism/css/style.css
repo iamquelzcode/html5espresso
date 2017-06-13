@@ -1,0 +1,56 @@
+.myAppMain .myContentMidText{
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.myAppMain .mysubHeaderMidText{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.myAppMain .mysubHeaderMidText:hover{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+.myAppMain .myTileContainer{
+   /* background-color: #000000; */
+}
+
+
+.myAppMain .myStandardTile{
+    font-size: 90%;
+    border-radius: 2px;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    background-color: #ffffff;
+    margin: 0.5rem;
+}
+
+
+.myAppMain .myStandardTile:hover{
+    background-color: skyblue;
+    opacity: 0.7;
+}
+
+/*
+.myAppMain .myNnumber{
+    font-size: 40px;
+}
+
+
+
+.myAppMain #content {
+                 color: green;
+                     font-family: Arial;
+                     font-size: 20px;
+                     background-color: pink;
+                     width: 300px;
+                     height: 70px;
+              }
+
+ body, html, #content {
+        height:100%;
+    }
+*/
