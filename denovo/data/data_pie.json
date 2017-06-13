@@ -1,0 +1,14 @@
+[
+    {
+      "Product" : "Platinum",
+      "Dist": 640000
+    },
+     {
+      "Product" : "Gold",
+      "Dist": 1369060
+    },
+     {
+      "Product" : "Silver",
+      "Dist": 3345609
+    }
+  ]

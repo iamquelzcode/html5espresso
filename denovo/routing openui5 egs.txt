@@ -1,0 +1,31 @@
+routing example openui5
+
+View.xml
+
+<mvc:View
+controllerName="my.app.controller.Main"
+xmlns:html=http://www.w3.org/1999/xhtml
+xmlns:mvc="sap.ui.core.mvc"
+xmlns="sap.m">
+<App id="rootControl"/>
+</mvc:View>
+
+
+manifest.json
+
+"sap.ui5": {
+"_version": "1.1.0",
+"rootView": {
+"viewName": "my.app.view.Main",
+"type": "XML"
+},
+"routing": {
+"config": {
+"routerClass": "sap.m.routing.Router",
+"controlId": "rootControl",
+"controlAggregation" : "pages",
+"viewPath": "my.app.view",
+"viewType": "XML",
+"async": true
+}
+},

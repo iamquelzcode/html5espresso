@@ -1,0 +1,34 @@
+{
+"GenericTile" :[
+   {
+      "header" : "Platinum Product Sales",
+      "subheader": "Global",
+      "unit" : "USD",
+      "footer": "Q1 2017",
+      "scale" : "M",
+      "value": "800",
+      "color" : "Critical",
+      "indicator": "Up"
+    },
+    {
+      "header" : "Gold Product Sales",
+      "subheader": "Global",
+      "unit" : "USD",
+      "footer": "Q1 2017",
+      "scale" : "M",
+      "value": "9000",
+      "color" : "Good",
+      "indicator": "Up"
+    },
+    {
+      "header" : "Silver Product Sales",
+      "subheader": "Global",
+      "unit" : "USD",
+      "footer": "Q1 2017",
+      "scale" : "M",
+      "value": "120000",
+      "color" : "Error",
+      "indicator": "Down"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mvc:View
+        controllerName="sap.ui.demo.controller.App"
+          xmlns="sap.m"
+          xmlns:mvc="sap.ui.core.mvc"
+          xmlns:core="sap.ui.core"
+          xmlns:html="http://www.w3.org/1999/xhtml"
+          xmlns:charts="sap.ui.demo.control">
+    
+<App id="app" class="myAppMain">
+    
+</App>
+</mvc:View>
