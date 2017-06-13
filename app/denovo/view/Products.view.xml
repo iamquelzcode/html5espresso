@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mvc:View
+        controllerName="sap.ui.demo.controller.Products"
+          xmlns="sap.m"
+          xmlns:mvc="sap.ui.core.mvc"
+          xmlns:core="sap.ui.core"
+          xmlns:html="http://www.w3.org/1999/xhtml"
+          xmlns:charts="sap.ui.demo.control">
+    
+    <Page title="{i18n>displayPageTitle}" >
+        <customHeader>
+            <Bar>
+                <contentRight>
+                    <Button icon="sap-icon://account"> </Button>
+                </contentRight>
+                <contentMiddle>
+                    <Text text="{i18n>displayCustomHeaderContentMidText}" 
+                    class="myContentMidText"/> 
+                </contentMiddle>
+            </Bar>
+        </customHeader>
+         <subHeader>
+        <Toolbar>
+            <ToolbarSpacer/>
+          <Button text = "{i18n>subHeaderButtonText}"
+                    class="myNavButton"
+                    press="onPress"
+                    icon="sap-icon://manager-insight"/>
+            <Button text = "{i18n>subHeaderButtontwoText}"
+                    class="myNavButton"
+                    press="onPressSecond"
+                    icon="sap-icon://product" />
+            <Button text = "{i18n>subHeaderButtonthreeText}"
+                    class="myNavButton"
+                    press="onPressThird"
+                    icon="sap-icon://collections-insight"/>
+            <ToolbarSpacer/>
+        </Toolbar>
+        </subHeader>
+          
+        
+        <content>
+         <html:h1>
+         <Text text="{i18n>displayProductsView}"
+               class="myHeaderh1" />
+        </html:h1>  
+        
+        <GenericTile  class="sapUiTinyMarginBegin
+                       sapUiTinyMarginTop tileLayout"
+               header="Platinum Product Sales"
+               subheader="Global"
+               press="press">
+     <tileContent>
+       <TileContent unit="USD" footer="Q1 2017">
+         <content>
+           <NumericContent 
+             scale="M" 
+             value="800" 
+             valueColor="Critical"
+             indicator="Up" 
+             icon="sap-icon://leads"/>
+         </content>
+       </TileContent>
+     </tileContent>
+   </GenericTile>
+            
+    <GenericTile class="sapUiTinyMarginBegin
+                       sapUiTinyMarginTop tileLayout"
+               header="Gold Product Sales"
+               subheader="Global"
+               press="press">
+     <tileContent>
+       <TileContent unit="USD" footer="Q1 2017">
+         <content>
+           <NumericContent 
+             scale="M" 
+             value="9000" 
+             valueColor="Good"
+             indicator="Up"
+             icon="sap-icon://opportunity"/>
+         </content>
+       </TileContent>
+     </tileContent>
+   </GenericTile>
+            
+        <GenericTile  class="sapUiTinyMarginBegin
+                       sapUiTinyMarginTop tileLayout"
+               header="Silver Product Sales"
+               subheader="Global"
+               press="press">
+     <tileContent>
+       <TileContent unit="USD" footer="Q1 2017">
+         <content>
+           <NumericContent 
+             scale="M" 
+             value="120000" 
+             valueColor="Error"
+             indicator="Down" 
+             icon="sap-icon://customer"/>
+         </content>
+       </TileContent>
+     </tileContent>
+   </GenericTile>
+            
+          <html:div align="left">  <charts:PieChart/> 
+            </html:div>
+        </content>
+    <footer>
+      <Toolbar>
+      </Toolbar>
+    </footer>
+    </Page>
+
+</mvc:View>

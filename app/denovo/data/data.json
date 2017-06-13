@@ -1,0 +1,30 @@
+[
+    {
+      "Country" : "Jamaica",
+      "Sale": 500
+    },
+    {
+      "Country" : "Germany",
+      "Sale" : 1000
+    },
+    {
+      "Country" : "USA",
+      "Sale" : 1500
+    },
+    {
+      "Country" : "South Africa",
+      "Sale" : 2000
+    },
+    {
+      "Country" : "Dubai",
+      "Sale" : 2500
+    },
+    {
+      "Country" : "France",
+      "Sale" : 3000
+    },
+    {
+      "Country" : "Brazil",
+      "Sale" : 3500
+    }
+  ]
