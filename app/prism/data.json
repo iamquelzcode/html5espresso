@@ -1,0 +1,50 @@
+{
+  "TileCollage" : [
+    {
+      "icon" : "line-chart",
+      "number": "800",
+      "numberUnit": "US$",
+      "title" : "Q1 Revenue $'000",
+      "info" : "Loyalty Campaign",
+      "infoState" : "Warning"
+    },
+    {
+      "icon" : "bar-chart",
+      "number" : "108",
+      "numberUnit" : "# Cust",
+      "title" : "Q1 Number of New Customers",
+      "info" : "Loyalty Campaign",
+      "infoState" : "Warning"
+    },
+    {
+      "icon" : "travel-expense-report",
+      "number": "74",
+      "numberUnit": "US$",
+      "title" : "Q1 ARPU $",
+      "info" : "Average Revenue Per User"
+    },
+        {
+      "icon" : "line-chart",
+      "number": "793",
+      "numberUnit": "US$",
+      "title" : "Q2 Revenue $'000",
+      "info" : "Loyalty Campaign",
+      "infoState" : "Warning"
+    },
+    {
+      "icon" : "bar-chart",
+      "number" : "200",
+      "numberUnit" : "# Cust",
+      "title" : "Q2 Number of New Customers",
+      "info" : "Loyalty Campaign",
+      "infoState" : "Warning"
+    },
+    {
+      "icon" : "travel-expense-report",
+      "number": "40",
+      "numberUnit": "US$",
+      "title" : "Q2 ARPU $",
+      "info" : "Average Revenue Per User"
+    }
+  ]
+}

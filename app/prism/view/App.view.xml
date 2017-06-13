@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mvc:View
+        controllerName="sap.ui.demo.controller.App"
+          xmlns="sap.m"
+          xmlns:mvc="sap.ui.core.mvc"
+          xmlns:layout="sap.ui.layout">
+    
+<App id="prism" class="myAppMain">
+    <Page title="{i18n>displayPageTitle}" >
+        <customHeader>
+            <Bar>
+                <contentRight>
+                    <Button icon="sap-icon://account"
+                            press="onPressMsg"> </Button>
+                </contentRight>
+                <contentMiddle>
+                    <Text text="{i18n>displayCustomHeaderContentMidText}" 
+                    class="myContentMidText"/> 
+                </contentMiddle>
+            </Bar>
+        </customHeader>
+         <subHeader>
+            <Bar>    
+                <contentMiddle>
+                      <layout:VerticalLayout width="50%">
+               <layout:content>
+                   <ProgressIndicator
+                    percentValue="64"
+                    displayValue="64% {i18n>subHeaderBarContentMidText}"
+                    showValue="true"
+                    state="Warning"/>
+               </layout:content>
+                </layout:VerticalLayout>
+                </contentMiddle>
+             </Bar>
+        </subHeader>
+        <content>
+             
+            
+        <TileContainer 
+                       id="main"
+                       tiles="{/TileCollage}"
+                       class="myTileContainer"> 
+            <StandardTile
+                          icon="sap-icon://{icon}"
+                          type="{type}"
+                          number="{number}"
+                          numberUnit="{numberUnit}"
+                          title="{title}"
+                          info="{info}"
+                          infoState="{infoState}"
+                          
+                          class="myStandardTile"/>
+         </TileContainer>       
+        </content>
+    <footer>
+      <Toolbar>
+      </Toolbar>
+    </footer>
+    </Page>
+    </App>
+</mvc:View>
